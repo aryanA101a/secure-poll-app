@@ -66,11 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
             // "type": "image/jpg"
           });
-          dio
-              .post(
-                  "https://tronic-ballot.herokuapp.com/v1/image/face_detection",
-                  data: data)
-              .then((response) {
+          dio.post("https://herokuApi", data: data).then((response) {
             print(response.data);
             response.data == "1"
                 ? votersDatabaseService
