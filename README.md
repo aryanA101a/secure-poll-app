@@ -1,16 +1,17 @@
-# tronic_ballot
+# secure-poll-app
 
-A new Flutter project.
+A polling app with three levels of security.
+
+ - OTP [setup](www.fast2sms.com)
+ - [USB Fingerprint Sensor](https://www.mantratec.com/products/Fingerprint-Sensors/MFS100-Fingerprint-Scanner) 
+ - Face-recognition [setup](https://github.com/aryanA101a/pyface)
 
 ## Getting Started
+### Important: Everything is depricated, reviving the project is only for brave of the heart.
+Configure [firebase](https://firebase.google.com/) for this project
 
-This project is a starting point for a Flutter application.
+## Steps to run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 1. Download or clone the repository
+ 2. Open the repo on VSCode
+ 3. Ctrl+F5 or `flutter run` on terminal
