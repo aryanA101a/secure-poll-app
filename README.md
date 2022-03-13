@@ -2,7 +2,7 @@
 
 A polling app with three levels of security.
 
- - OTP [setup](www.fast2sms.com)
+ - OTP [setup](https://www.fast2sms.com)
  - [USB Fingerprint Sensor](https://www.mantratec.com/products/Fingerprint-Sensors/MFS100-Fingerprint-Scanner) 
  - Face-recognition [setup](https://github.com/aryanA101a/pyface)
 
